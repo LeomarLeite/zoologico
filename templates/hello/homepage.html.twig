@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<p>Bem vindo ao nosso site!</p>
+<ul>
+    {% for user in users %}
+        {# este é um comentário de código #}
+        <!-- este é um comentário de html -->
+        <li>{{user.nome}} - {{user.idade}} </li>
+    {% endfor %}
+</ul>
